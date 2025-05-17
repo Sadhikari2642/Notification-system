@@ -1,0 +1,16 @@
+{
+  "name": "notification-system",
+  "version": "1.0.0",
+  "description": "Notification system using Node.js, RabbitMQ, and SQLite",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "worker": "node worker.js"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "express": "^4.18.2",
+    "sequelize": "^6.31.1",
+    "sqlite3": "^5.1.6"
+  }
+}
